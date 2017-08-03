@@ -3,7 +3,7 @@ define('entry/entry_demo', [
     'modules/addTitle'
 ], function(require) {
     'use strict';
-    console.log('jquery');
+    let $ = require('jquery');
     let addTitle = require('modules/addTitle');
     addTitle.title('pageTitle', '房天下 HTML5 视频播放器');
     addTitle.copyRight('房天下前端 @ 2017');
